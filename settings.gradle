@@ -1,2 +1,3 @@
+include ':jetpack:appstartup'
 include ':app'
 rootProject.name = "AndroidArchitecture"
