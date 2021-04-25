@@ -8,7 +8,7 @@ import androidx.work.WorkManager
 
 fun init(context: Context) {
     AppInitializer.getInstance(context)
-        .initializeComponent(ExampleLoggerInitializer::class.java).log()
+        .initializeComponent(ExampleLoggerInitializer::class.java)
 }
 
 // Initializes WorkManager.
