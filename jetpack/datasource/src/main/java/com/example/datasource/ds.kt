@@ -8,13 +8,13 @@ import kotlinx.coroutines.flow.Flow
 import java.util.prefs.Preferences
 
 // At the top level of your kotlin file:
-val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "settings")
-
-fun initDs() {
-    val EXAMPLE_COUNTER = intPreferencesKey("example_counter")
-    val exampleCounterFlow: Flow<Int> = context.dataStore.data
-        .map { preferences ->
-            // No type safety.
-            preferences[EXAMPLE_COUNTER] ?: 0
-        }
-}
+//val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "settings")
+//
+//fun initDs() {
+//    val EXAMPLE_COUNTER = intPreferencesKey("example_counter")
+//    val exampleCounterFlow: Flow<Int> = context.dataStore.data
+//        .map { preferences ->
+//            // No type safety.
+//            preferences[EXAMPLE_COUNTER] ?: 0
+//        }
+//}
