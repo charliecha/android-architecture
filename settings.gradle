@@ -1,3 +1,4 @@
+include ':jetpack:lifecycle'
 include ':jetpack:viewbinding'
 include ':jetpack:datasource'
 include ':jetpack:appstartup'

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -11,9 +12,11 @@
         android:id="@+id/viewBinding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="go2ViewBinding"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="viewBinding" />
+
+    <Button
+        android:id="@+id/lifecycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lifecycle" />
 </LinearLayout>

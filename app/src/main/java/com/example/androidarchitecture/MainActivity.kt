@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.lifecycle.LifeCycleActivity
+import com.example.lifecycle.MyLifeCycleActivity
 import com.example.viewbinding.ViewBindingActivity
 
 class MainActivity : AppCompatActivity() {
@@ -13,6 +15,11 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<View>(R.id.viewBinding).setOnClickListener{
             val intent = Intent(MainActivity@this, ViewBindingActivity::class.java)
+            startActivity(intent)
+        }
+
+        findViewById<View>(R.id.lifecycle).setOnClickListener{
+            val intent = Intent(MainActivity@this, MyLifeCycleActivity::class.java)
             startActivity(intent)
         }
     }
