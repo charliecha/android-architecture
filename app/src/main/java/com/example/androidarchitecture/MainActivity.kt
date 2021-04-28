@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import com.example.lifecycle.LifeCycleActivity
 import com.example.lifecycle.MyLifeCycleActivity
+import com.example.livedata.LiveDataActivity
 import com.example.viewbinding.ViewBindingActivity
 
 class MainActivity : AppCompatActivity() {
@@ -20,6 +21,11 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<View>(R.id.lifecycle).setOnClickListener{
             val intent = Intent(MainActivity@this, MyLifeCycleActivity::class.java)
+            startActivity(intent)
+        }
+
+        findViewById<View>(R.id.livedata).setOnClickListener{
+            val intent = Intent(MainActivity@this, LiveDataActivity::class.java)
             startActivity(intent)
         }
     }

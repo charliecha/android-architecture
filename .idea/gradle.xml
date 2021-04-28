@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/jetpack/appstartup" />
             <option value="$PROJECT_DIR$/jetpack/datasource" />
             <option value="$PROJECT_DIR$/jetpack/lifecycle" />
+            <option value="$PROJECT_DIR$/jetpack/livedata" />
             <option value="$PROJECT_DIR$/jetpack/viewbinding" />
           </set>
         </option>
