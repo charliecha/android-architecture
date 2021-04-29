@@ -1,3 +1,4 @@
+include ':jetpack:viewmodel'
 include ':jetpack:livedata'
 include ':jetpack:lifecycle'
 include ':jetpack:viewbinding'
