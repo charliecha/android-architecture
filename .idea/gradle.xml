@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/jetpack" />
             <option value="$PROJECT_DIR$/jetpack/appstartup" />
+            <option value="$PROJECT_DIR$/jetpack/coroutinescope" />
             <option value="$PROJECT_DIR$/jetpack/datasource" />
             <option value="$PROJECT_DIR$/jetpack/lifecycle" />
             <option value="$PROJECT_DIR$/jetpack/livedata" />
