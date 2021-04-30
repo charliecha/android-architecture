@@ -25,4 +25,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="livedata" />
+
+    <Button
+        android:id="@+id/workmanager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="workmanager" />
 </LinearLayout>

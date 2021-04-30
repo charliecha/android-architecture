@@ -1,3 +1,4 @@
+include ':jetpack:workmanager'
 include ':jetpack:coroutinescope'
 include ':jetpack:viewmodel'
 include ':jetpack:livedata'

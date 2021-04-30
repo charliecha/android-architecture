@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/jetpack/livedata" />
             <option value="$PROJECT_DIR$/jetpack/viewbinding" />
             <option value="$PROJECT_DIR$/jetpack/viewmodel" />
+            <option value="$PROJECT_DIR$/jetpack/workmanager" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

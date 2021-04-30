@@ -8,6 +8,7 @@ import com.example.lifecycle.LifeCycleActivity
 import com.example.lifecycle.MyLifeCycleActivity
 import com.example.livedata.LiveDataActivity
 import com.example.viewbinding.ViewBindingActivity
+import com.example.workmanager.work
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,6 +28,10 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.livedata).setOnClickListener{
             val intent = Intent(MainActivity@this, LiveDataActivity::class.java)
             startActivity(intent)
+        }
+
+        findViewById<View>(R.id.workmanager).setOnClickListener{
+            work(this)
         }
     }
 }
